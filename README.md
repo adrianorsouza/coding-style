@@ -23,8 +23,8 @@ First install CodeSniffer globally using composer:
 
 Check the version of installed script:
 
-		phpcs --version
-		phpcbf --version
+    phpcs --version
+    phpcbf --version
 
 Place the `phpcs.xml` within the project root directory.
 
