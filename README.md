@@ -8,6 +8,24 @@ EditorConfig
 
 The default styles is located within the file `.editorconfig` that should be copied into the project root.
 
+JavaScript
+==========
+
+#### Prettier 
+
+`.prettierrc`
+
+```json
+{
+  "endOfLine": "lf",
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "printWidth": 80
+}
+```
+
 
 PHP
 ===
