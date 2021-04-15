@@ -1,17 +1,21 @@
-AR Coding Style
-===============
+Coding Style
+============
 
 A set of coding style used by Adriano Rosa.
 
-EditorConfig
-============
+# EditorConfig
 
 The default styles is located within the file `.editorconfig` that should be copied into the project root.
 
-JavaScript
-==========
+Usage with VSCode
 
-#### Prettier 
+Download and install this Plugin:
+
+https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+
+# JavaScript
+
+#### Prettier
 
 `.prettierrc`
 
@@ -26,12 +30,9 @@ JavaScript
 }
 ```
 
-
-PHP
-===
+# PHP
 
 ## CodeStyle using PHP_CodeSniffer the `phpcs`
-
 
 First install CodeSniffer globally using composer:
 
@@ -47,22 +48,21 @@ Check the version of installed script:
 Place the `phpcs.xml` within the project root directory.
 
 To check a possible code style issue:
- 
-    phpcs 
+
+    phpcs
 
 To fix a possible code style issue:
 
     phpcbf
 
-
 ## Author
 
-**Adriano Rosa** (https://adrianorosa.com)  
+**Adriano Rosa** (https://adrianorosa.com)
 
 ## Licence
 
-Copyright © 2021, Adriano Rosa  <info@adrianorosa.com>
+Copyright © 2021, Adriano Rosa <info@adrianorosa.com>
 All rights reserved.
 
-For the full copyright and license information, please view the LICENSE 
+For the full copyright and license information, please view the LICENSE
 file that was distributed within the source root of this project.

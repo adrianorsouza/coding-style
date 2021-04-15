@@ -1,0 +1,23 @@
+{
+  "name": "coding-style",
+  "version": "1.0.0",
+  "description": "AR Coding Style",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianorsouza/coding-style.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianorsouza/coding-style/issues"
+  },
+  "homepage": "https://github.com/adrianorsouza/coding-style#readme",
+  "dependencies": {
+    "prettier": "^2.2.1"
+  }
+}
