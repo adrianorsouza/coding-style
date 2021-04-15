@@ -16,6 +16,6 @@ trim_trailing_whitespace = false
 [*.php]
 indent_size = 4
 
-[*.json]
+[{package.json,compose.json,*.yml}]
 indent_size = 2
 insert_final_newline = false
